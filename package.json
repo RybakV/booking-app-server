@@ -1,0 +1,26 @@
+{
+  "name": "booking-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RybakV/booking-app-server.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "booking",
+    "study"
+  ],
+  "author": "RybakV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RybakV/booking-app-server/issues"
+  },
+  "homepage": "https://github.com/RybakV/booking-app-server#readme"
+}
