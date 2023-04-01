@@ -47,7 +47,7 @@ const offerSettings = {
         'Rent for few days only.',
         'Safe kids area is available on the territory.'
     ],
-    photos: ['http://o0.github.io/assets/images/tokyo/hotel1.jpg', 'http://o0.github.io/assets/images/tokyo/hotel2.jpg', 'http://o0.github.io/assets/images/tokyo/hotel3.jpg'],
+    photos: ['./img/photos/photo1.jpg', './img/photos/photo2.jpg', './img/photos/photo3.jpg', './img/photos/photo4.jpg'],
     avatarsQuantity: {
         min: 1,
         max: 8,
@@ -163,7 +163,7 @@ http.createServer(function (req, res) {
             stringDataParse.id = txtDataJson.length;
 
             txtDataJson.push(stringDataParse);
-            console.log(txtDataJson);
+
             fs.writeFileSync('data.txt', JSON.stringify(txtDataJson));
 
             responseString = JSON.stringify(txtDataJson);
